@@ -1,0 +1,558 @@
+/* LAPTOP L DEVICE START*/
+@media(max-width:1440px){
+    header {
+        padding: 0;
+    } 
+    .home {
+        background-size: 970px;
+    }
+}
+/* LAPTOP L DEVICE END*/
+
+
+
+@media(max-width:1200px){
+    .home{
+        background-size: 855px;
+    }
+}
+
+/* LAPTOP DEVICE START*/
+@media(max-width:1024px){
+    header {
+        padding: 0;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .navbar-nav a {
+        font-size: 14px;
+    }
+    .homeContent h2 {
+        font-size: 45px;
+        margin: 0;
+    }
+    .animatedText {
+        font-size: 25px;
+    }
+    .homeContent p {
+        font-size: 14px;
+        margin: 15px 0px 20px;
+    }
+    .homeContent {
+        margin-top: 70px;
+    }
+    .home {
+        min-height: 85vh;
+        background-size: 720px;
+    }
+    .btn-box .btn {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .home-social-icon {
+        margin: 20px 0px 10px;
+        gap: 15px;
+    }
+    .home-social-icon a {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .sectionHeading h3 {
+        font-size: 45px;
+    }
+    .featuresBox {
+        padding: 20px;
+        margin: 10px;
+    }
+    .aboutImage {
+        margin: 20px 0px 25px;
+    }
+    .aboutContent p {
+        font-size: 14px;
+        margin: 20px 0px 30px;
+    }
+    .featuresBox p {
+        font-size: 14px;
+    }
+    .controls button {
+        font-size: 12px;
+    }
+}
+/* LAPTOP DEVICE END*/
+
+
+
+/* HEADER MENU END IN MY DEVICE START */
+@media(max-width:991px){
+    #toggle {
+        margin: 0;
+    }
+    #toggle span, #toggle span:after, #toggle span:before {
+        background-color: #03dac6;
+    }
+    #toggle {
+        height: 0;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-collapse{
+        background-color: #112e42;
+    }
+    .navbar-nav a {
+        margin-left: 0;
+    }
+    header {
+        padding: 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar{
+        background-color: #112e42;
+    }
+    .home {
+        background-size: 885px;
+    }
+    .homeContent h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .animatedText {
+        font-size: 25px;
+    }
+    .homeContent {
+        margin: 0;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .homeContent p {
+        font-size: 10px;
+        margin: 10px 0px 15px;
+    }
+}
+/* HEADER MENU END IN MY DEVICE END */
+
+
+
+/* TABLET DEVICE START */
+@media(max-width:768px){
+    .homeContent p {
+        font-size: 17px;
+    }
+    .home {
+        background-size: 720px;
+    }
+    #toggle {
+        width: 25px;
+    }
+    .homeContent {
+        margin-top: 50px;
+    }
+    .btn-box .btn {
+        width: 120px;
+        height: 35px;
+    }
+    .featureIcon i {
+        font-size: 40px;
+    }
+    .featuresBox h3 {
+        font-size: 18px;
+    }
+    .featuresBox p {
+        font-size: 12px;
+    }
+    .featuresBox p {
+        margin: 0 5px;
+    }
+    .sectionHeading h3 {
+        font-size: 40px;
+    }
+    .headingContent {
+        font-size: 20px;
+    }
+    .aboutImage {
+        width: 220px;
+        height: 220px;
+        margin: 10px 0px 20px;
+    }
+    .aboutContent p {
+        font-size: 17px;
+        margin: 10px 0px 30px;
+    }
+    .skills {
+        width: 600px;
+        padding: 15px;
+    }
+    .skill {
+        padding: 15px;
+    }
+    .skill-name {
+        font-size: 11px;
+    }
+    .skill-per {
+        height: 10px;
+    }
+    .skill-bar {
+        height: 10px;
+    }
+    .skill-per::before {
+        font-size: 10px;
+        top: -30px;
+    } 
+    .skill-per::after {
+        top: -12px;
+    }
+    .controls button {
+        font-size: 10px;
+    }
+    .itemImage {
+        height: 160px;
+    }
+    .contact form input {
+        width: 45%;
+        height: 45px;
+    }
+    .footerIconTop {
+        justify-content: right;
+    }
+    .itemImage:hover .itemHover {
+        top: 37%;
+    }.itemHover a h5 {
+        padding: 5px;
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+/* TABLET DEVICE END */
+
+
+
+/* MOBILE DEVICE XL START */
+@media(max-width:575px){
+    .m-auto{
+        justify-content: center;
+    }
+    .home {
+        background-position: bottom right;
+        background-size: 0;
+        min-height: 56vh;
+        text-align: center;
+    }
+    .owl-nav .owl-prev i {
+        display: none;
+    }
+    .owl-nav .owl-next i {
+        display: none;
+    }
+    .skills {
+        width: 90%;
+    }
+    .sectionHeading h3 {
+        font-size: 35px;
+    }
+    .skill-per {
+        height: 10px;
+    }
+    .featuresBox {
+        padding: 30px;
+        margin: 15px;
+        text-align: center;
+    }
+    .logo {
+        font-size: 25px;
+    }
+    .homeContent h2 {
+        font-size: 35px;
+    }
+    .animatedText {
+        font-size: 25px;
+    }
+    .homeContent p {
+        font-size: 13px;
+        margin: 5px 0px 15px;
+    }
+    .btn-box .btn {
+        width: 110px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .btn-box {
+        gap: 15px;
+        justify-content: center;
+    }
+    .home-social-icon a {
+        width: 23px;
+        height: 23px;
+        font-size: 13px;
+    }
+    .home-social-icon {
+        gap: 12px;
+        justify-content: center;
+    }
+    .homeContent {
+        margin-top: 60px;
+    }
+    .navbar {
+        padding: 5px 0;
+    }
+    .galleryItems{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerIconTop {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .footerIconTop a {
+        width: 25px;
+        height: 30px;
+    }
+    .featuresBox h3 {
+        margin: 15px 5px 10px;
+        font-size: 24px;
+    }
+    .featuresBox p {
+        font-size: 16px;
+    }
+    .galleryItem {
+        justify-content: center;
+        display: flex;
+        padding: 0;
+    }
+    .mix{
+        width: 45%;
+        text-align: center;
+    }
+}
+/* MOBILE DEVICE XL END */
+
+
+
+/* MOBILE DEVICE CUSTOM SIZE START */
+@media(max-width:500px){
+    .clientsBox {
+        margin: 10px;
+    }
+}
+/* MOBILE DEVICE CUSTOM SIZE END */
+
+
+
+/* MOBILE DEVICE L START */
+@media(max-width:425px){
+    .contact form input {
+        width: 95%;
+    }
+    .clientsBox {
+        margin: 10px;
+    }
+}
+/* MOBILE DEVICE L END */
+
+
+
+/* MOBILE DEVICE M START */
+@media(max-width:375px){
+    .footerText p {
+        font-size: 14px;
+    }
+    .mix {
+        width: 91%;
+    }
+}
+/* MOBILE DEVICE M END */
+
+
+
+/* MOBILE DEVICE S START */
+@media(max-width:320px){
+    .itemImage:hover .itemHover {
+        top: 40%;
+    }
+    .skills {
+        width: 100%;
+    }
+
+    .aboutImage .animatedCircle {
+        width: 80%;
+        height: 80%;
+    }
+    header {
+        padding: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .homeContent {
+        margin: 55px 0 0;
+    }
+    .homeContent h2 {
+        font-size: 30px;
+    }
+    .animatedText {
+        font-size: 20px;
+    }
+    .homeContent p {
+        font-size: 15px;
+        margin: 15px 0px 20px;
+    }
+    .home {
+        background-size: 0;
+    }    
+    .btn-box .btn {
+        width: 90px;
+        height: 25px;
+        font-size: 12px;
+        padding: 0;
+    }
+    .btn-box {
+        gap: 15px;
+        justify-content: center;
+    }
+    .home-social-icon a {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .home-social-icon {
+        margin: 15px 0px 10px;
+        justify-content: center;
+        gap: 15px;
+    }
+    .home {
+        min-height: 60vh;
+        text-align: center;
+    }
+    .navbar .container{
+        justify-content: center;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-nav a {
+        margin-left: 0;
+    }
+    .navbar-toggler {
+        color: #03dac6;
+        border: none;
+
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .features {
+        padding: 10px 0;
+    }
+    .sectionHeading h3 {
+        font-size: 35px;
+    }
+    .headingContent {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .featuresBox {
+        padding: 20px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .featureIcon i {
+        font-size: 28px;
+    }
+    .featuresBox h3 {
+        margin: 10px 5px 0px;
+        font-size: 25px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .itemImage {
+        height: 0;
+        width: 100%;
+    }
+    .clientsBox {
+        margin: 10px;
+    }
+    .owl-nav .owl-prev i {
+        display: none;
+    }
+    .owl-nav .owl-next i {
+        display: none;
+    }
+    .featuresBox p {
+        margin: 0 5px;
+    }
+    .aboutImage img {
+        width: 70%;
+    }
+    .animatedTextAbout {
+        font-size: 20px;
+    }
+    .aboutContent p {
+        font-size: 13px;
+        margin: 10px 15px 20px;
+    }
+    .skillBox .label {
+        font-size: 12px;
+    }
+    .skill .skillBar {
+        height: 6px;
+    }
+    .skill {
+        padding: 14px;
+    }
+    .skillPer .toolTip {
+        font-size: 7px;
+    }
+    .skillPer .toolTip {
+        top: -21px;
+        right: -12px;
+        padding: 3px;
+    }
+    .itemImage {
+        height: 100%;
+        width: 100%;
+    }
+    .footerText p {
+        font-size: 12px;
+    }
+    .footerMain{
+        margin: auto;
+    }
+    .footerIconTop {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .footerIconTop a {
+        width: 25px;
+        height: 28px;
+    }
+    .contact form input {
+        height: 40px;
+        width: 100%;
+    }
+    .clientsWord h4 {
+        font-size: 14px;
+    }
+    .clientsWord p {
+        font-size: 9px;
+    }
+    .mix {
+        width: 100%;
+    }
+}
+/* MOBILE DEVICE S END */
